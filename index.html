@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CloudDash - Panel de Monitoreo</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>🚀 CloudDash</h1>
+        <p>Monitoreo de Infraestructura Multicloud en Tiempo Real</p>
+    </header>
+
+    <main>
+        <section class="dashboard-preview">
+            <h2>Consola de Métricas (Demo)</h2>
+            <div class="metrics">
+                <div class="card"><strong>Uso de CPU:</strong> 24%</div>
+                <div class="card"><strong>Memoria RAM:</strong> 4.2 GB / 8 GB</div>
+                <div class="card"><strong>Estado de Red:</strong> Óptimo</div>
+            </div>
+        </section>
+
+        <section class="form-section">
+            <h2>Solicitar Acceso Beta</h2>
+            <form id="betaForm">
+                <label for="nombre">Nombre Completo:</label>
+                <input type="text" id="nombre" required>
+
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" required>
+
+                <label for="mensaje">¿Por qué deseas probar la plataforma?:</label>
+                <textarea id="mensaje" required></textarea>
+
+                <button type="submit">Enviar Solicitud</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
